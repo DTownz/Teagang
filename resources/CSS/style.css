@@ -15,16 +15,48 @@ header {
   z-index: 1;
 }
 
+nav span {
+  padding-right: 50px;
+}
+
+.head-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 body {
   background-color: black;
+  color: White;
   font-family: Helvetica;
   text-align: center;
 }
 
-.head-container {
-  display: flex;
-  justify-content: space-between;
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
-nav span {
-  padding-right: 50px;
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+}
+
+#mission .content {
+  background-color: black;
+  margin: auto;
+  width: 100%;
 }
