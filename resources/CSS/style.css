@@ -60,3 +60,22 @@ body {
   margin: auto;
   width: 100%;
 }
+
+#totm {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.tea img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center
+}
